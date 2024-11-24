@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title> HTML Form</title>
+</head>
+<body>
+    <center><h1>Form In HTML</h1></center>
+    <!-- this is marquee Tag -->
+    <h3><marquee direction="right">Fill The Form For Visit Visiting Various Websites </marquee></h3>
+    <form action="/server">
+       
+        <div>
+            <level for="username">Username :</level>
+        <input type="text" placeholder="Enter Username" id="username" >
+        </div>
+         <br>
+
+        <div>
+          <level for="password">Password :</level>
+        <input type="password" placeholder="Enter Password" id="password">
+        </div>
+         <br>
+
+        <level > Age:</level>
+        <input type="number" placeholder="Enter Age">
+        <br><br> 
+        <level>Date of Birth:</level>
+        <input type="date" placeholder="date">
+        <level>Time:</level>
+        <input type="time">
+        <br><br>
+    </form>
+    <hr>
+
+     <!-- these are link for visit diffrent websites -->
+    <form action="https://www.youtube.com/results ">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>search</button>
+    </form>
+    <hr/>
+
+    <form action="https://www.google.com/search ">
+        <input type="text" placeholder="search in Google" name="search_query">
+        <button>search</button>
+    </form>
+    <hr>
+    <form action="https://www.linkedin.com">
+        <input type="text" placeholder="search in Linkedin" name="search_query">
+        <button>search</button>
+    </form>
+    <hr>
+    <form action="https://www.instagram.com">
+        <input type="text" placeholder="search in Instgram" name="search_query">
+        <button>search</button>
+    </form>
+    <hr>
+
+    <form action="  https://www.facebook.com">
+        <input type="text" placeholder="search in Facebook" name="search_query">
+        <button>search</button>
+    </form>    
+        <hr>
+
+    </form>
+    <form>
+        <label >
+            <input type="radio" name="age" value="I am 18+"> I am 18+
+        </label>
+        <label>
+            <input type="radio" name="age" value="I am not 18+">I am not 18+
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox" >Confirm
+        </label>
+    </form>
+
+     <form action="\server">
+          
+    <br>
+    Choose your favorite City:
+    <!-- these are radio type input -->
+     <label>
+        <input type="radio" name="city" value="Delhi">Delhi
+    </label>
+    <label>
+        <input type="radio" name="city" value="kanpur">Kanpur
+    </label>
+    <label>
+        <input type="radio" name="city" value="Mumbia">Mumbia
+    </label>
+    <label>
+        <input type="radio" name="city" value="Gorakhapur">Gorakhapur
+    </label>
+    <br>
+    <hr>
+     <div>
+        Choose your favorite sports:
+            <input type="radio" name="cricket" id="101">
+        <level for="101">Cricket</level>
+        <input type="radio" name="Football" id="101">
+        <level for="101">Football</level>
+        <input type="radio" name="Basketball" id="101">
+        <level for="101">Basketball</level>
+        <input type="radio" name="Hockey" id="101">
+        <level for="101">Hockey</level>
+        <input type="radio" name="Badmiton" id="101">
+        <level for="101">Badmiton</level>
+         </div>
+<br>
+         <div>
+            Choose gender :
+            <!-- this is select Tag -->
+            <select name="Gender" id="gender">
+                <option>select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <br>
+         </div>
+     </form>
+     <br>
+     <form>
+        <level for="feedback"> Give your feedback :</level>
+        <br>
+            <textarea id="feedback " name="feedback"></textarea> 
+     </form>
+ <button type="submit" id="submit"><b>submit</b></button>
+</body>
+</html>
